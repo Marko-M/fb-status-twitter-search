@@ -1,0 +1,132 @@
+div#wrapper{
+    margin: 20px auto 0 auto;
+    width: 750px;
+
+    padding: 20px 40px;
+
+    background-color: #E8EEFA;
+    border: 2px solid #B4C7D7;
+
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+
+    font-family: sans-serif;
+}
+
+div.common{
+    margin-bottom: 20px;
+}
+
+div.label{
+    margin-bottom: 10px;
+}
+
+div.tweet, div.notice{
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #FFF;
+
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+div.notice{
+    border: 2px solid #B4C7D7;
+}
+
+div.body{
+    padding-left: 20px;
+}
+
+div#current .body, div.tweet{
+    font-style: italic;
+}
+
+div#notices{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#title{
+    font-size: 120%;
+    text-align: center;
+}
+
+div#content{
+    margin-top: 30px;
+}
+
+div#tools #connect,
+div#tools #disconnect{
+    float: left;
+}
+div#tools #logout{
+    float: right;
+}
+
+a:link,
+a:visited,
+a:active,
+a:hover{
+    color: #4A708E;
+    text-decoration: none;
+}
+
+#content.login_register form{
+    width: 300px;
+    height: 200px;
+}
+
+#content.login_register #login form{
+    float: left;
+}
+
+#content.login_register #register form{
+    float: right;
+}
+
+#content.login_register div#login_register_wrapper{
+    width: 200px;
+    margin: 0 auto;
+}
+
+#content.login_register form div.form_section{
+    margin-bottom: 15px;
+}
+
+#content.login_register form div.section_title{
+    text-align: center;
+}
+
+#content.login_register form label{
+    display: block;
+    width: 100px;
+    margin-bottom: 5px;
+}
+
+#content.login_register form input[type="text"],
+#content.login_register form input[type="password"]{
+    border: 1px solid #B4C7D7;
+    width: 200px;
+
+    outline: none    
+}
+
+#content.login_register form input[type="submit"]{
+    border: 2px solid #B4C7D7;
+    background-color: #E8EEFA;
+    padding: 3px;
+
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+/* Floats clearing code */
+#content.login_register:after, div#tools:after{ content: ".";  display: block; height: 0; clear: both; visibility: hidden; }
+#content.login_register, div#tools{display: inline-block;}
+* html #content.login_register, * html div#tools{height: 1%;}
+#content.login_register, div#tools{display: block;}
