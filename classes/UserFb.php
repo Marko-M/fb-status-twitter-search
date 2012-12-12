@@ -118,7 +118,7 @@ class UserFb extends User{
      * Search twitter for related tweets using public search API.
      *
      * @param string $what What to search for
-     * @return array() Array with search results
+     * @return array Array with search results
      */
     public function get_twitter_search($what){
         $url =
